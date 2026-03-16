@@ -1,0 +1,7 @@
+IndicatorValue,IndicatorType,Title,Description,Severity,Action,ExpirationTime
+3395856ce81f2b7382dee72602f798b642f14140,FileSha1,Malware Sample A,Known malware - SHA1,High,AlertAndBlock,2026-09-16T00:00:00Z
+d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592,FileSha256,Malware Sample B,Known malware - SHA256,High,AlertAndBlock,2026-09-16T00:00:00Z
+098f6bcd4621d373cade4e832627b4f6,FileMd5,Suspicious File,MD5 hash of suspicious file,Medium,Alert,2026-06-16T00:00:00Z
+203.0.113.50,IpAddress,Malicious C2 Server,Known C2 server IP,High,AlertAndBlock,2026-09-16T00:00:00Z
+evil-domain.example.com,DomainName,Phishing Domain,Phishing site domain,High,Block,2026-09-16T00:00:00Z
+https://evil-domain.example.com/malware/payload.exe,Url,Malware Download URL,Payload distribution URL,High,AlertAndBlock,2026-09-16T00:00:00Z
