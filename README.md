@@ -60,6 +60,9 @@ $secret = ConvertTo-SecureString "シークレット値" -AsPlainText -Force
 - 処理完了後にサマリー (成功/失敗/スキップ) を表示
 - 失敗レコードがある場合、`upload_errors_yyyyMMdd_HHmmss.csv` にエラーログを出力
 
+
+
+
 ---
 
 ## インジケーターの削除 (Remove-MDEIndicators.ps1)
@@ -102,6 +105,8 @@ evil-domain.example.com
 # -WhatIf で削除対象の確認のみ (実際には削除しない)
 .\Remove-MDEIndicators.ps1 -CsvPath .\delete_targets.csv -TenantId "テナントID" -ClientId "クライアントID" -WhatIf
 ```
+
+
 
 ## 参考
 
